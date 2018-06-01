@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dario.car.server.database.mybatis.mapper.SolrGoodsMapper">
+  <resultMap id="BaseResultMap" type="com.dario.car.server.database.mybatis.domain.SolrGoods">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="goods_id" jdbcType="VARCHAR" property="goodsId" />
+    <result column="proname" jdbcType="VARCHAR" property="proname" />
+    <result column="pricein" jdbcType="DECIMAL" property="pricein" />
+    <result column="sale" jdbcType="DECIMAL" property="sale" />
+    <result column="digits" jdbcType="INTEGER" property="digits" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="classfiy" jdbcType="VARCHAR" property="classfiy" />
+    <result column="detail" jdbcType="VARCHAR" property="detail" />
+    <result column="gdate" jdbcType="DATE" property="gdate" />
+  </resultMap>
+</mapper>

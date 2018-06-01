@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dario.car.server.database.mybatis.mapper.CarMapper">
+  <resultMap id="BaseResultMap" type="com.dario.car.server.database.mybatis.domain.Car">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="platenumber" jdbcType="VARCHAR" property="platenumber" />
+    <id column="cid" jdbcType="INTEGER" property="cid" />
+    <result column="brand" jdbcType="VARCHAR" property="brand" />
+    <result column="version" jdbcType="VARCHAR" property="version" />
+    <result column="vlicense" jdbcType="VARCHAR" property="vlicense" />
+    <result column="ctravel" jdbcType="REAL" property="ctravel" />
+    <result column="guiprice" jdbcType="DOUBLE" property="guiprice" />
+    <result column="series" jdbcType="VARCHAR" property="series" />
+    <result column="engineno" jdbcType="VARCHAR" property="engineno" />
+    <result column="classisno" jdbcType="VARCHAR" property="classisno" />
+    <result column="purchasedate" jdbcType="DATE" property="purchasedate" />
+    <result column="insurancedate" jdbcType="DATE" property="insurancedate" />
+    <result column="acid" jdbcType="INTEGER" property="acid" />
+  </resultMap>
+</mapper>

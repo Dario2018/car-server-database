@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dario.car.server.database.mybatis.mapper.StorecardMapper">
+  <resultMap id="BaseResultMap" type="com.dario.car.server.database.mybatis.domain.Storecard">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="sid" jdbcType="INTEGER" property="sid" />
+    <result column="csid" jdbcType="VARCHAR" property="csid" />
+    <result column="species" jdbcType="VARCHAR" property="species" />
+    <result column="balance" jdbcType="DOUBLE" property="balance" />
+    <result column="discount" jdbcType="DOUBLE" property="discount" />
+    <result column="transactdate" jdbcType="DATE" property="transactdate" />
+    <result column="overdue" jdbcType="DATE" property="overdue" />
+    <result column="bindstore" jdbcType="VARCHAR" property="bindstore" />
+  </resultMap>
+</mapper>

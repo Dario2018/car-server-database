@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dario.car.server.database.mybatis.mapper.EmployeesMapper">
+  <resultMap id="BaseResultMap" type="com.dario.car.server.database.mybatis.domain.Employees">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="epid" jdbcType="INTEGER" property="epid" />
+    <result column="epname" jdbcType="VARCHAR" property="epname" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="jobs" jdbcType="VARCHAR" property="jobs" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+    <result column="employdate" jdbcType="DATE" property="employdate" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="roles" jdbcType="INTEGER" property="roles" />
+  </resultMap>
+</mapper>

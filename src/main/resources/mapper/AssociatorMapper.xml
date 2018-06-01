@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dario.car.server.database.mybatis.mapper.AssociatorMapper">
+  <resultMap id="BaseResultMap" type="com.dario.car.server.database.mybatis.domain.Associator">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="aid" jdbcType="INTEGER" property="aid" />
+    <result column="aname" jdbcType="VARCHAR" property="aname" />
+    <result column="asex" jdbcType="INTEGER" property="asex" />
+    <result column="aphone" jdbcType="VARCHAR" property="aphone" />
+    <result column="store" jdbcType="VARCHAR" property="store" />
+    <result column="registr" jdbcType="VARCHAR" property="registr" />
+    <result column="detail" jdbcType="LONGVARCHAR" property="detail" />
+  </resultMap>
+</mapper>
